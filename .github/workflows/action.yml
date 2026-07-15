@@ -1,7 +1,7 @@
 name: Environments secrets env action workflow  
 on: push
 jobs:  
-  test:
+  local:
     runs-on: ubuntu-latest  
     environment: local
     env:
