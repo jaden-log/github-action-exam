@@ -3,7 +3,7 @@ on: push
 jobs:  
   test:
     runs-on: ubuntu-latest  
-    environment: testing 
+    environment: local
     env:
         DB_NAME1:   ${{ secrets.DB_NAME }}  
         DB_PORT1:   ${{ vars.DB_PORT }} 
